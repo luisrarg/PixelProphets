@@ -7,6 +7,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 buttons = {
     "Capture": (50, 50, 150, 100),
     "Quit":    (200, 50, 300, 100),
+    "Rock Paper Scissors":    (350, 50, 600, 100),
 }
 
 # Mouse

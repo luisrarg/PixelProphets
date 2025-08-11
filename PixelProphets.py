@@ -39,10 +39,9 @@ def mouse_callback(event, x, y, flags, param):
                     show_ttt = not show_ttt
 
 def draw_tic_tac_toe(frame):
-    """Draw a 3x3 grid centered on the frame."""
     h, w = frame.shape[:2]
     size = int(min(w, h) * 0.6)        
-    cx, cy = w // 2, h // 2       
+    cx, cy = w // 2, h // 2    
     half = size // 2
     x1, y1 = cx - half, cy - half      
     x2, y2 = cx + half, cy + half      

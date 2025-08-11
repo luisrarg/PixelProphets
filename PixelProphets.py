@@ -8,6 +8,7 @@ buttons = {
     "Capture": (50, 50, 150, 100),
     "Quit":    (200, 50, 300, 100),
     "Rock Paper Scissors":    (350, 50, 600, 100),
+    "Tic Tac Toe": (650, 50, 850, 100),
 }
 
 # Mouse
